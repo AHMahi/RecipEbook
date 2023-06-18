@@ -45,7 +45,7 @@
           </div>
           <button type="submit" class="w-full bg-green-600 text-white font-medium py-3 rounded-md transition duration-300 hover:bg-green-700" @click="registerClicked = true">Register</button>
         </form>
-        <p class="mt-20 text-center text-md font-medium text-gray-500">Already have an account?
+        <p class="mt-20 text-center text-md font-medium text-gray-500">Already have an account
           <span @click="$emit('showLogin')" class="text-green-600 hover:text-green-700 cursor-pointer font-semibold">Sign in</span>
         </p>
       </div>
