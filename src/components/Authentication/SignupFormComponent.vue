@@ -35,7 +35,7 @@
             <p v-if="registerClicked && !passwordIsValid()" class="text-red-500 text-sm">Must be at least 8 characters long and have a special character</p>
           </div>
           <div v-if="registerClicked && !termsAccepted" class="text-red-500 text-sm mb-4">
-            <p>Please accept the Terms of Use and Privacy Policy.</p>
+            <p>Please accept the Terms of Use and Privacy Polic.</p>
           </div>
           <div class="mb-8">
             <input type="checkbox" v-model="termsAccepted" class="form-checkbox border border-gray-400 rounded-none focus:border-green-500 checked:bg-green-500" />
