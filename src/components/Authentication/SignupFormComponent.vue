@@ -142,7 +142,8 @@ export default {
     passwordIsValid() {
       // Add your password validation logic here
       // Example: Check if the password meets the requirements
-
+      const passwordRegex = /^(?=.*[a-zA-Z0-9])(?=.*[@$!%*?&])[A-Za-z\d@$!%*?&]{8,}$/;
+      return passwordRegex.test(this.password);
     },
   }
 }
