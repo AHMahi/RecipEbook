@@ -1,0 +1,21 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.font-poppins {
+  font-family: 'Poppins';
+}
+
+.font-source-sans-pro {
+    font-family: 'Source Sans Pro';
+}
+
+.custom-image {
+  height: 580px;
+  width: 810px;
+}
+
+.login-image {
+  height: 720px;
+  width: 650px;
+}
